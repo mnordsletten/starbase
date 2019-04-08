@@ -1,0 +1,8 @@
+{
+  "net": [
+    {
+      "device": "virtio",
+      "backend": "user"
+    }
+  ]
+}

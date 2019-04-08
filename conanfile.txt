@@ -1,0 +1,11 @@
+[requires]
+uplink/[>=0.14.0,include_prerelease=True]@includeos/latest
+
+[build_requires]
+chainloader/[>=0.14.0,include_prerelease=True]@includeos/latest
+vmbuild/0.15.0@includeos/stable
+vmrunner/0.15.0@includeos/stable
+
+[generators]
+virtualenv
+cmake
