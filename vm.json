@@ -1,8 +1,8 @@
 {
   "net": [
     {
-      "device": "virtio",
-      "backend": "user"
+      "device": "vmxnet3",
+      "mac": "c0:01:0a:00:00:aa"
     }
   ]
 }

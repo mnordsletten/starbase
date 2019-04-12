@@ -1,0 +1,7 @@
+{
+  "uplink": {
+    "url": "https://mothership.includeos.org:9090",
+    "token": "kappa123",
+    "reboot": true
+  }
+}

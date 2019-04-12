@@ -1,10 +1,12 @@
 [requires]
 uplink/[>=0.14.0,include_prerelease=True]@includeos/latest
+NaCl/0.2.1-23@includeos/latest
 
 [build_requires]
+vmrunner/[>=0.14.0,include_prerelease=True]@includeos/latest
+vmbuild/[>=0.14.0,include_prerelease=True]@includeos/stable
 chainloader/[>=0.14.0,include_prerelease=True]@includeos/latest
-vmbuild/0.15.0@includeos/stable
-vmrunner/0.15.0@includeos/stable
+diskbuilder/[>=0.14.0,include_prerelease=True]@includeos/stable
 
 [generators]
 virtualenv
