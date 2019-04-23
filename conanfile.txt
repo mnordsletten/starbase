@@ -1,11 +1,10 @@
 [requires]
+includeos/[>=0.14.0,include_prerelease=True]@includeos/latest
 uplink/[>=0.14.0,include_prerelease=True]@includeos/latest
 NaCl/0.2.1-23@includeos/latest
 
 [build_requires]
-vmrunner/[>=0.14.0,include_prerelease=True]@includeos/latest
 vmbuild/[>=0.14.0,include_prerelease=True]@includeos/stable
-chainloader/[>=0.14.0,include_prerelease=True]@includeos/latest
 diskbuilder/[>=0.14.0,include_prerelease=True]@includeos/stable
 
 [generators]
